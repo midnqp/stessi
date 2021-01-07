@@ -1,3 +1,10 @@
+STESSI (A Simple Tesseract Integration) - creates an interface for OCR 
+and TTS to work together, through: browser-based GUI and CLI. Scripting
+initiated ~20 July, 2020, and went through rewrites for simplicity. We're
+open to have fun, report, ask, answer, and code.
+
+
+
 Dependency packages for Unix-like systems:
 - python3, ffmpeg, libleptonica-dev, liblept5, tesseract-ocr*
 
