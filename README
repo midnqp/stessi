@@ -39,7 +39,7 @@ like - ben, eng, etc. You upload in them.
   - Remains hidden stessi.py by: ".stessi.py". Suddenly one directory
     appears named 'text'. As gTTS makes audio, appears suddenly the 
     'audio' directory.
-	- Somehow support multi-user in GUI. How's that possible? 
+  - Somehow support multi-user in GUI. How's that possible? 
     EMERGENCY MEETING!!!!
 2. Make CLI.
   - args: fileNames, lang
