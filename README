@@ -37,10 +37,9 @@ Support the Little Plans Ahead:
 1. Friendly & Cordial GUI: Multi-language directories 
 like - ben, eng, etc. You upload in them.
 	- Remains hidden stessi.py by: ".stessi.py". Sudd-
-	  enly one directory appears named 'text'. As gTTS
+		enly one directory appears named 'text'. As gTTS
 		makes audio, appears suddenly the 'audio' directory.
-	- Somehow support multi-user in GUI. How's that poss-
-		ible? 
+	- Somehow support multi-user in GUI. How's that possible? 
 2. Make CLI.
   - args: fileNames, lang
-  - echo `file $fileName`; #if image fileTypes, proceed.
+	- echo `file $fileName`; #if image fileTypes, proceed.
