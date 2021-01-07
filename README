@@ -29,17 +29,18 @@ CLI (not yet):
 
 Extending language support:
 - add .traineddata files in ./tesseract/share/tessdata/, 
-	like: ben.traineddata
+  like: ben.traineddata
 
 
 
 Support the Little Plans Ahead:
 1. Friendly & Cordial GUI: Multi-language directories 
 like - ben, eng, etc. You upload in them.
-	- Remains hidden stessi.py by: ".stessi.py". Sudd-
-		enly one directory appears named 'text'. As gTTS
-		makes audio, appears suddenly the 'audio' directory.
+  - Remains hidden stessi.py by: ".stessi.py". Suddenly one directory
+    appears named 'text'. As gTTS makes audio, appears suddenly the 
+    'audio' directory.
 	- Somehow support multi-user in GUI. How's that possible? 
+    EMERGENCY MEETING!!!!
 2. Make CLI.
   - args: fileNames, lang
-	- echo `file $fileName`; #if image fileTypes, proceed.
+  - echo `file $fileName`; #if image fileTypes, proceed.
