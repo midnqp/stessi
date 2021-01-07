@@ -1,15 +1,22 @@
 Dependency packages for Unix-like systems:
-- python3, ffmpeg, liblept5
+- python3, ffmpeg, libleptonica-dev, liblept5, tesseract-ocr*
 
-Dependency modules for Python3 (using ):
+(*a large compiled tesseract-ocr binary is included in: ./tesseract/bin/)
+
+Dependency modules for Python3 (using PIP):
 - updog (GUI)
 - gtts
 
 
 
 Installing/Using:
-GUI: `./stessi.py`
-CLI (not yet): `python3 stessi.py [directory containing images to input]`
+GUI: 
+- `./stessi.py`
+- From a browser, access `localhost:8080`. Upload image files, and get 
+	text & audio outputs.
+
+CLI (not yet): 
+- `python3 stessi.py [directory containing images to input]`
 
 
 
