@@ -1,2 +1,0 @@
-libtesseract.a filter=lfs diff=lfs merge=lfs -text
-libtesseract.so.5.0.0 filter=lfs diff=lfs merge=lfs -text

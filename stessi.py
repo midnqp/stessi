@@ -12,7 +12,7 @@ while True:
 		for eachImage in listAll:
 			count += 1
 			os.system("rm -f output{0}.txt".format(count))
-			os.system("./tesseract/bin/tesseract {0} {1}".format(eachImage, "output"+str(count)))
+			os.system("tesseract {0} {1}".format(eachImage, "output"+str(count)))
 			os.system("rm -f " + eachImage)
 			print(eachImage)
 		sys.stdout.write("\033[0;34mAll images are processed!\033[0;0m\n")
